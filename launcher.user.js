@@ -981,13 +981,13 @@ console.log("Running Bot Launcher!");
 
         var debugStrings = [];
         debugStrings.push("Current Bot: " + window.botList[botIndex][0]);
-        debugStrings.push("T - Bot: " + (!toggle ? "On" : "Off"));
-        debugStrings.push("R - Lines: " + (!toggleDraw ? "On" : "Off"));
-        debugStrings.push("Q - Follow Mouse: " + (toggleFollow ? "On" : "Off"));
-        debugStrings.push("S - Manual Cell: " + (selectedCell == 0 ? "None" : selectedCell) + " of " + getPlayer().length);
+        debugStrings.push("T - БОТ: " + (!toggle ? "On" : "Off"));
+        debugStrings.push("R - ЛИНИИ: " + (!toggleDraw ? "On" : "Off"));
+        debugStrings.push("Q - СЛЕДИ МАУС: " + (toggleFollow ? "On" : "Off"));
+        debugStrings.push("S - Рачно Оправување: " + (selectedCell == 0 ? "None" : selectedCell) + " of " + getPlayer().length);
         debugStrings.push("");
-        debugStrings.push("Best Score: " + ~~(sessionScore / 100));
-        debugStrings.push("Best Time: " + bestTime + " seconds");
+        debugStrings.push("Најдобар Резултат: " + ~~(sessionScore / 100));
+        debugStrings.push("Најдобро Време: " + bestTime + " seconds");
         debugStrings.push("");
         debugStrings.push(serverIP);
 
